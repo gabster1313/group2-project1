@@ -24,6 +24,13 @@ body {
     display:flex;
     flex-flow: row nowrap;
     justify-content:space-between;
+    padding: 20px;
+}
+
+.header__nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -43,6 +50,13 @@ body {
     padding: 15px;
     float: right;
     text-align: right; 
+}
+
+.header__link {
+    margin: 10px;
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color 0.3s;
 }
 
 .header__link:hover {
@@ -229,7 +243,7 @@ transform: translateY(0);
 }
 
 /* Footer */
-footer {
+.footer {
     text-align: center;
     padding: 20px;
     background-color: var(--primary-color);
