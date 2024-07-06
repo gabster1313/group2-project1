@@ -17,6 +17,13 @@ body {
 /* Header */
 .header {
     background-color: var(--primary-color);
+    padding: 40px;
+}
+
+.header__nav {
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content:space-between;
     padding: 20px;
 }
 
@@ -33,6 +40,16 @@ body {
     text-transform: uppercase;
     color: var(--link-color);
     text-decoration: none;
+    cursor: pointer;
+}
+
+.header__link {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color 0.3s;
+    padding: 15px;
+    float: right;
+    text-align: right; 
 }
 
 .header__link {
@@ -45,6 +62,8 @@ body {
 .header__link:hover {
     color: var(--secondary-color);
 }
+
+/* Home Page*/
 
 /* Hero Section */
 .hero {
@@ -102,6 +121,125 @@ body {
 
 .content__image:hover {
     transform: scale(1.05);
+}
+
+/* Cast Tab */
+
+.cast__subheading {
+    font-family: 'GoT';
+    text-align: center;
+    font-size: 100px;
+    color: var(--secondary-color);
+    margin: 5px  5px 5px 5px;
+}
+
+.castslider {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.box {
+    width: 40px;
+    height: 250px;
+    background-color:  	#c94b4b;
+    margin: 10px;
+    cursor: pointer;
+    transition: width 0.3s ease-in, height 0.3s ease-in;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+}
+
+.hidden:checked + .box {
+    width: 1500px;
+    height: 550px;
+}
+.hidden {
+    display: none;
+}
+
+.b1 {
+    background-image: url(images/season1.webp);
+}
+    
+.b2 {
+    background-image: url(images/dragon.jpg);
+}
+
+.b3 {
+    background-image: url(images/logo.jpg);
+}
+
+.b4 {
+    background-image: url(images/alicent.jpg);
+}
+
+.cast_column {
+    float: left;
+    width: 30%;
+    padding: 8px 8px  8px 8px;
+    margin-left: 23px;
+  }
+  
+  .cast_container {
+    padding:0px 16px;
+  }
+  
+  .cast_container::after, .cast_row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .cast_text {
+    text-align: center;
+    font-family: 'GoT';
+    font-size: 10px;
+  }
+  
+button {
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 50px;
+    border-width: 10px;
+    border-color: var(--primary-color);
+    background-color: #b22222;
+}
+
+button:hover {
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+
+button a {
+    color: var(--link-color);
+    text-decoration: none;
+    font-size: larger;
+}
+
+@keyframes bounce {
+  0% {
+transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px)
+  }
+  100% {
+    transform: translateY(0)
+  }
+}
+
+@font-face {
+    font-family: 'GoT';
+    src: url(fonts/Game\ of\ Thrones.ttf);
 }
 
 /* Footer */
@@ -164,4 +302,14 @@ body {
     .content__text {
         font-size: 1rem;
     }
+
+    .cast__subheading {
+        font-size: 50px;
+        display: block;
+      }
+
+      .cast_column {
+        width: 100%;
+        display: block;
+      }
 }
