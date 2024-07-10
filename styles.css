@@ -69,7 +69,7 @@ body {
 .hero {
     text-align: center;
     padding: 100px 20px;
-    background-image: url('assets/House_of_Dragon.webp');
+    background-image: url('images/House_of_Dragon.webp');
     background-size: cover;
     background-position: center;
 }
