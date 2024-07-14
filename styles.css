@@ -206,11 +206,10 @@ body {
     display: block;
     margin: auto;
     margin-top: 30px;
-    border-radius: 50px;
-    border-width: 24px;
+    border-radius: 25px;
+    padding: 10px 20px;
     border-color: var(--secondary-color);
-    border-color: var(--secondary-color);
-    background-color: #ffcc00;
+    background-color: var(--secondary-color);
 }
 
 .character_button:hover {
@@ -226,7 +225,7 @@ body {
 .character_button a {
     color: var(--background-color);
     text-decoration: none;
-    font-size: 24px;
+    font-size: 15px;
 }
 
 @keyframes bounce {
@@ -364,12 +363,21 @@ transform: translateY(0);
     .cast__subheading {
         font-size: 50px;
         display: block;
-      }
+    }
 
-      .cast_column {
+    .cast_column {
         width: 90%;
         display: block;
-      }
+    }
+
+    .character_button {
+        border-radius: 50px;
+        border-width: 24px;
+    }
+
+    .character_button a {
+        font-size: 24px;
+    }
     
     .more__h1 {
         font-size: 2rem;
