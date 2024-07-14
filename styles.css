@@ -249,13 +249,13 @@ transform: translateY(0);
 .more__h1 {
     font-family: 'GoT';
     text-align: center;
-    font-size: 100px;
+    font-size: 7rem;
     color: var(--secondary-color);
-    margin: 5px  5px 5px 5px;
+    margin: 5px;
 }
 
 .more__content {
-    padding: 50px 20px;
+    padding: 50px;
 }
 
 /* MORE page - book cover imgs section */
@@ -264,12 +264,21 @@ transform: translateY(0);
     flex-direction: row;
     flex-wrap: wrap;
     max-width: 100vw;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .book__cover {
-    max-height: 300px;
+    max-height: 230px;
     margin: 10px;
+    transition: transform 0.3s;
+}
+
+.book__cover:hover {
+    transform: scale(1.2);
+}
+
+.wrap {
+    word-wrap: break-word;
 }
 
 /* MORE page - font styling */
@@ -303,6 +312,10 @@ transform: translateY(0);
 
     .hero__subtitle {
         font-size: 1.2rem;
+    }
+
+    .more__h1 {
+        font-size: 4.2rem;
     }
 }
 
@@ -353,4 +366,8 @@ transform: translateY(0);
         width: 100%;
         display: block;
       }
+    
+    .more__h1 {
+        font-size: 3rem;
+    }
 }
