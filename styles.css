@@ -224,7 +224,7 @@ body {
 }
 
 .character_button a {
-    color: #000000;
+    color: var(--background-color);
     text-decoration: none;
     font-size: 24px;
 }
