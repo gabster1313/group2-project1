@@ -201,13 +201,14 @@ body {
     font-size: 10px;
   }
   
-.character_button {
+  .character_button {
     cursor: pointer;
     display: block;
     margin: auto;
     margin-top: 30px;
     border-radius: 50px;
     border-width: 24px;
+    border-color: var(--secondary-color);
     border-color: var(--secondary-color;
     background-color: #ffcc00;
 }
@@ -217,11 +218,13 @@ body {
     animation-iteration-count:infinite;
     animation-name: bounce;
     animation-timing-function: ease;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
     color: var(--primary-color);
 }
 
 .character_button a {
-    color: var(--link-color);
+    color: var(--text-color);
     text-decoration: none;
     font-size: 24px;
 }
