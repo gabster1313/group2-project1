@@ -25,7 +25,3 @@ I did not realize that to merge changes you only needed the repo owner to review
 ## Deployment
 
 The website is deployed at: https://gabster1313.github.io/group2-project1/index.html
-
-## Deployment
-
-The website is deployed at: https://armarquette3e.github.io/House-of-the-Dragon/
