@@ -208,8 +208,8 @@ body {
     margin-top: 30px;
     border-radius: 50px;
     border-width: 24px;
-    border-color: var(--primary-color);
-    background-color: #b22222;
+    border-color: var(--secondary-color;
+    background-color: #ffcc00;
 }
 
 .character_button:hover {
@@ -217,6 +217,7 @@ body {
     animation-iteration-count:infinite;
     animation-name: bounce;
     animation-timing-function: ease;
+    color: var(--primary-color);
 }
 
 .character_button a {
