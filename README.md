@@ -26,3 +26,24 @@ Everyone else should have around the same amount of commits as each other, thoug
 ## Deployment
 
 The website is deployed at: https://gabster1313.github.io/group2-project1/index.html
+
+## Lighthouse Report
+
+All the pages have a 91 in SEO due to our "more" tab except for some reason the "more" page the SEO in the report did not flag it's own tab.
+
+### Home Page
+
+![home_lighthouse](https://github.com/user-attachments/assets/196b9ffd-5931-4e38-89c1-0f19e49882e2)
+
+### Characters Page
+
+![characters_lighthouse](https://github.com/user-attachments/assets/5392ab79-db2c-403b-9400-306600bb9b7d)
+
+### Resource
+
+![resources_lighthouse](https://github.com/user-attachments/assets/18586765-cd4f-4454-b2bf-62c643171ff0)
+s Page
+
+### More Page 
+
+![more_lighthouse](https://github.com/user-attachments/assets/39e75cda-296e-4aa5-bdea-37bdaa249e08)
